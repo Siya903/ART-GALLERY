@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guernica - Art Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .art-image {
+      max-height: 400px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Art Gallery</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/art4.jpg" alt="Guernica" class="art-image">
+      </div>
+      <div class="col-md-6">
+        <h2>Guernica</h2>
+        <p><strong>Artist:</strong>  Pablo Picasso </p>
+        <p><strong>Year:</strong> 1937</p>
+        <p><strong>Description:</strong> Guernica, a large black-and-white oil painting executed by Spanish artist Pablo Picasso in 1937 following the German bombing of Guernica, a city in Spain’s Basque region. The complex painting received mixed reviews when it was shown in the Spanish Republic Pavilion at the world’s fair in Paris, but it became an icon as it traveled the world in ensuing years, raising controversies on its meaning and its rightful home..</p>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4 class="mb-4">Similar Artworks</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/art2.jpg" class="card-img-top" alt="The Starry Night">
+          <div class="card-body">
+            <h5 class="card-title">The Starry Night</h5>
+            <a href="art2.html" class="btn btn-sm btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/art5.jpg" class="card-img-top" alt="The Persistence of Memory">
+          <div class="card-body">
+            <h5 class="card-title">The Persistence of Memory</h5>
+            <a href="art5.html" class="btn btn-sm btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

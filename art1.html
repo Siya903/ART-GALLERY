@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Monalisa - Art Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .art-image {
+      max-height: 400px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Art Gallery</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/art1.jpg" alt="The Monalisa" class="art-image">
+      </div>
+      <div class="col-md-6">
+        <h2>The Monalisa</h2>
+        <p><strong>Artist:</strong> Leonardo da Vinci</p>
+        <p><strong>Year:</strong> 1503</p>
+        <p><strong>Description:</strong> Mona Lisa, oil painting on a poplar wood panel by Leonardo da Vinci, probably the world’s most famous painting. It was painted sometime between 1503 and 1519, when Leonardo was living in Florence, and it now hangs in the Louvre Museum, Paris, where it has remained an object of pilgrimage in the 21st century. The sitter’s mysterious smile and her unproven identity have made the painting a source of ongoing investigation and fascination.</p>
+      </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4 class="mb-4">Similar Artworks</h4>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/art2.jpg" class="card-img-top" alt="The Starry Night">
+          <div class="card-body">
+            <h5 class="card-title">The Starry Night</h5>
+            <a href="art2.html" class="btn btn-sm btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/art3.jpg" class="card-img-top" alt="The Scream">
+          <div class="card-body">
+            <h5 class="card-title">The Scream</h5>
+            <a href="art3.html" class="btn btn-sm btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
